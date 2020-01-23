@@ -1,4 +1,12 @@
 
+// Assignment 1 SlotMachine
+// Date : 22nd jan 2020
+// Description :  Creating SlotMachine by parsing jQuery to Swift.
+// Version history : 2.0
+// Vishal Chanchlani (301090878)
+// Vedvrat Singh Parihar (301089005)
+// Nisha Tandel (301094688)
+
 
 import UIKit
 

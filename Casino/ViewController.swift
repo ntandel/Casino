@@ -1,3 +1,10 @@
+// Assignment 1 SlotMachine
+// Date : 22nd jan 2020
+// Description :  Creating SlotMachine by parsing jQuery to Swift.
+// Version history : 2.0
+// Vishal Chanchlani (301090878)
+// Vedvrat Singh Parihar (301089005)
+// Nisha Tandel (301094688)
 
 
 import UIKit
@@ -15,6 +22,7 @@ class ViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDel
     @IBOutlet weak var cashToRiskLabel: UILabel!
     @IBOutlet weak var stepper: UIStepper!
     
+    // variables used
     var spinResult: [String] = [""];
        var fruits = "";
        var grape = 0;
@@ -36,7 +44,7 @@ class ViewController: UIViewController , UIPickerViewDataSource, UIPickerViewDel
             cashToRiskLabel.text = "\(amount)$"
         }
     }
-    
+    // display cash lable
     @IBOutlet weak var cashLabel: UILabel!
     
     override func viewDidLoad() {
